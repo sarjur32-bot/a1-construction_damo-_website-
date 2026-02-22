@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A-1 Construction | Professional Services</title>
+    <style>
+        /* मोबाइल के लिए जीरो मार्जिन सेटिंग्स */
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Segoe UI', sans-serif; background: #ffffff; color: #333; line-height: 1.6; }
+
+        /* टॉप वेलकम बार */
+        .welcome-bar { background: #f1c40f; color: #000; text-align: center; padding: 8px; font-size: 12px; font-weight: bold; text-transform: uppercase; }
+
+        /* हेडर फिक्स - मोबाइल पर नाम ऊपर और नंबर नीचे आएगा */
+        header { background: #2c3e50; color: white; padding: 15px; text-align: center; border-bottom: 3px solid #f1c40f; }
+        .logo { font-size: 24px; font-weight: 800; display: block; margin-bottom: 5px; color: #fff; text-decoration: none; }
+        .header-contact { font-size: 14px; color: #f1c40f; text-decoration: none; font-weight: bold; }
+
+        /* हीरो सेक्शन */
+        .hero { 
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.pexels.com/photos/157811/pexels-photo-157811.jpeg?auto=compress&cs=tinysrgb&w=800');
+            background-size: cover; background-position: center;
+            padding: 50px 20px; text-align: center; color: white;
+        }
+        .hero h1 { font-size: 28px; margin-bottom: 15px; text-transform: uppercase; }
+        .hero p { font-size: 16px; margin-bottom: 25px; opacity: 0.9; }
+        .btn { background: #f1c40f; color: #000; padding: 12px 25px; text-decoration: none; font-weight: bold; border-radius: 5px; display: inline-block; box-shadow: 0 4px 6px rgba(0,0,0,0.2); }
+
+        /* सर्विसेज सेक्शन */
+        .section-padding { padding: 40px 20px; }
+        .section-title { text-align: center; font-size: 24px; color: #2c3e50; margin-bottom: 30px; font-weight: bold; }
+        .card { background: #fff; padding: 25px; margin-bottom: 20px; border-left: 6px solid #f1c40f; box-shadow: 0 5px 15px rgba(0,0,0,0.1); border-radius: 4px; }
+        .card h3 { color: #2c3e50; margin-bottom: 10px; font-size: 20px; }
+
+        /* इंजीनियर सेक्शन फिक्स (इमेज लोडिंग के लिए) */
+        .about { background: #f9f9f9; padding: 40px 20px; text-align: center; }
+        .about img { width: 100%; max-width: 350px; border-radius: 10px; border: 4px solid #fff; box-shadow: 0 10px 20px rgba(0,0,0,0.15); margin-bottom: 20px; }
+        .about h2 { font-size: 22px; margin-bottom: 15px; color: #2c3e50; }
+
+        /* संपर्क और फुटर */
+        .contact-box { background: #2c3e50; color: white; padding: 40px 20px; text-align: center; }
+        .contact-box h2 { margin-bottom: 20px; color: #f1c40f; }
+        .contact-box p { margin: 10px 0; font-size: 15px; }
+        footer { background: #1a252f; color: #888; text-align: center; padding: 15px; font-size: 12px; }
+    </style>
+</head>
+<body>
+
+    <div class="welcome-bar">
+        Welcome to A-1 Construction - Build Your Dreams!
+    </div>
+
+    <header>
+        <div class="logo">A-1 CONSTRUCTION</div>
+        <a href="tel:+919876543210" class="header-contact">📞 Call Us: +91 98765 43210</a>
+    </header>
+
+    <section class="hero">
+        <h1>Building Your Future</h1>
+        <p>Reliable construction and architectural services since 2010. Quality you can trust.</p>
+        <a href="#contact" class="btn">GET A FREE QUOTE</a>
+    </section>
+
+    <div class="section-padding">
+        <h2 class="section-title">Our Premium Services</h2>
+        <div class="card">
+            <h3>🏠 Home Construction</h3>
+            <p>Complete A-to-Z construction of residential houses with modern structural designs.</p>
+        </div>
+        <div class="card">
+            <h3>🏢 Office & Commercial</h3>
+            <p>Smartly planned workspace construction focusing on safety and business needs.</p>
+        </div>
+        <div class="card">
+            <h3>🛠️ Renovation Works</h3>
+            <p>Updating old structures into modern living spaces with speed and precision.</p>
+        </div>
+    </div>
+
+    <section class="about">
+        <img src="https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Professional Engineer">
+        <div class="about-text">
+            <h2>Meet Our Expert Engineers</h2>
+            <p>Our team of experienced civil engineers and architects ensures your project is completed with 100% safety standards and top-notch materials.</p>
+        </div>
+    </section>
+
+    <div id="contact" class="contact-box">
+        <h2>Contact Us</h2>
+        <p>📍 Plot No. 101, Construction Tower, New Delhi</p>
+        <p>📧 info@a1construction.com</p>
+        <p>📱 +91 98765 43210</p>
+    </div>
+
+    <footer>
+        &copy; 2026 A-1 Construction Co. | All Rights Reserved.
+    </footer>
+
+</body>
+</html>
